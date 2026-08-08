@@ -48,7 +48,7 @@ img, svg, canvas, video, input, select, textarea, button {
     display: flex !important;
     position: fixed;
     top: var(--header-height);
-    left: 0;
+    left: 0 !important;
     width: 100vw;
     height: calc(100vh - var(--header-height));
     background: var(--bg-primary);
@@ -58,7 +58,7 @@ img, svg, canvas, video, input, select, textarea, button {
     padding: 40px 28px;
     gap: 24px;
     border-bottom: 1px solid var(--border-light);
-    transform: translateY(-100%);
+    transform: translateY(-100%) !important;
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
