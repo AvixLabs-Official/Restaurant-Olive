@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ember-and-olive
+    env: static
+    buildCommand: echo 'EMBER & OLIVE build complete'
+    staticPublishPath: ./
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

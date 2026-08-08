@@ -1,0 +1,10 @@
+{
+  "name": "ember-and-olive",
+  "version": "1.0.0",
+  "description": "EMBER & OLIVE - Contemporary Upscale Dining Restaurant Website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'EMBER & OLIVE build complete'",
+    "start": "node server.js"
+  }
+}

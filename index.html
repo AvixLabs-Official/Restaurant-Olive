@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember & Olive — Contemporary Dining in Kolkata</title>
+  <meta name="description" content="Ember & Olive is a contemporary dining experience centered around open-fire cooking, seasonal ingredients, and unforgettable evenings in Kolkata.">
+  <meta name="keywords" content="Ember and Olive, fine dining Kolkata, open fire cooking, contemporary restaurant, luxury dining, wine cellar">
+  <meta name="author" content="Ember & Olive">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://emberandolive.demo/">
+  <meta property="og:title" content="Ember & Olive — Where Fire Meets Flavor">
+  <meta property="og:description" content="Contemporary cuisine, seasonal ingredients, and evenings worth remembering in Kolkata.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-mark" aria-label="Ember and Olive Homepage">
+        EMBER <span>&</span> OLIVE
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#story" class="nav-link">Our Story</a></li>
+          <li><a href="#dishes" class="nav-link">Signatures</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#reservations" class="nav-link">Reservations</a></li>
+          <li><a href="#location" class="nav-link">Find Us</a></li>
+          <li class="mobile-cta-item" style="display:none;">
+            <a href="#reservations" class="btn btn-gold" style="width:100%;">Reserve a Table →</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#reservations" class="btn btn-outline-gold">Reserve a Table →</a>
+        <button class="mobile-menu-btn" style="display:none;" aria-label="Toggle navigation menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-hours-pill">
+            <span>●</span> OPEN TUESDAY — SUNDAY &nbsp;|&nbsp; 6:00 PM — 11:00 PM
+          </div>
+          <div class="label-gold" style="margin-bottom:12px;">CONTEMPORARY OPEN-FIRE CUISINE</div>
+          <h1 class="hero-title">
+            WHERE FIRE<br>
+            <span class="serif-italic" style="color:var(--color-accent); text-transform:none;">meets</span> FLAVOR.
+          </h1>
+          <p class="hero-subtitle">
+            Contemporary cuisine, seasonal ingredients, and evenings worth remembering.
+          </p>
+          <div class="hero-actions">
+            <a href="#reservations" class="btn btn-gold">Reserve a Table →</a>
+            <a href="#menu" class="btn btn-outline-gold">Explore Menu ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTRODUCTION / OUR STORY
+         ========================================================================== -->
+    <section id="story">
+      <div class="container">
+        <div class="story-grid">
+          <div>
+            <div class="label-gold" style="margin-bottom:16px;">OUR STORY</div>
+            <h2>
+              BUILT AROUND<br>
+              <span class="serif-italic" style="color:var(--color-accent); text-transform:none;">fire, flavor</span><br>
+              AND THE TABLE.
+            </h2>
+            <p style="margin-top:24px; font-size:1.1rem; line-height:1.8;">
+              EMBER & OLIVE brings together seasonal ingredients, open-fire cooking, and thoughtful hospitality in a space designed for long evenings and memorable conversations.
+            </p>
+            <p style="margin-top:16px; font-size:1rem; color:var(--text-muted);">
+              Our open hearth kitchen celebrates elemental cooking techniques, elevating locally sourced Indian produce alongside premium international ingredients.
+            </p>
+          </div>
+
+          <div class="story-img-composition">
+            <div class="story-img-main"></div>
+            <div class="story-img-badge">
+              <span class="label-gold" style="display:block; margin-bottom:8px;">OPEN HEARTH</span>
+              <p style="font-size:0.85rem; color:var(--text-secondary);">Smoked, charred, and caramelised over oak & applewood fire.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SIGNATURE DISHES
+         ========================================================================== -->
+    <section id="dishes" style="background:var(--bg-secondary);">
+      <div class="container">
+        <div style="text-align:center; max-width:650px; margin:0 auto 40px auto;">
+          <div class="label-gold" style="margin-bottom:12px;">CULINARY HIGHLIGHTS</div>
+          <h2>Signature Dishes</h2>
+          <p style="margin-top:12px;">A few favorites from our kitchen, prepared daily over open embers.</p>
+        </div>
+
+        <div class="dishes-grid">
+          <!-- Dish 01 -->
+          <div class="dish-card">
+            <div class="dish-img-box">
+              <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb231fc?q=80&w=800&auto=format&fit=crop" alt="Charred Burrata" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h3 class="dish-name">Charred Burrata</h3>
+                <span class="price-tag">₹895</span>
+              </div>
+              <p class="dish-desc">Smoked tomato chutney, basil oil, grilled sourdough crackers.</p>
+            </div>
+          </div>
+
+          <!-- Dish 02 -->
+          <div class="dish-card">
+            <div class="dish-img-box">
+              <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop" alt="Ember-Grilled Sea Bass" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h3 class="dish-name">Ember-Grilled Sea Bass</h3>
+                <span class="price-tag">₹1,450</span>
+              </div>
+              <p class="dish-desc">Lemon beurre blanc, braised fennel, sea-samphire herbs.</p>
+            </div>
+          </div>
+
+          <!-- Dish 03 -->
+          <div class="dish-card">
+            <div class="dish-img-box">
+              <img src="https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?q=80&w=800&auto=format&fit=crop" alt="Truffle Risotto" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h3 class="dish-name">Truffle Risotto</h3>
+                <span class="price-tag">₹1,195</span>
+              </div>
+              <p class="dish-desc">Wild mushroom, aged parmesan, black truffle emulsion.</p>
+            </div>
+          </div>
+
+          <!-- Dish 04 -->
+          <div class="dish-card">
+            <div class="dish-img-box">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Slow-Roasted Lamb" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h3 class="dish-name">Slow-Roasted Lamb</h3>
+                <span class="price-tag">₹1,595</span>
+              </div>
+              <p class="dish-desc">Rosemary reduction jus, smoked garlic mash, roasted roots.</p>
+            </div>
+          </div>
+
+          <!-- Dish 05 -->
+          <div class="dish-card">
+            <div class="dish-img-box">
+              <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop" alt="Wild Mushroom Ravioli" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h3 class="dish-name">Wild Mushroom Ravioli</h3>
+                <span class="price-tag">₹1,050</span>
+              </div>
+              <p class="dish-desc">Brown butter, crispy sage leaves, 24-month aged parmesan.</p>
+            </div>
+          </div>
+
+          <!-- Dish 06 -->
+          <div class="dish-card">
+            <div class="dish-img-box">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop" alt="Dark Chocolate Torte" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h3 class="dish-name">Dark Chocolate Torte</h3>
+                <span class="price-tag">₹695</span>
+              </div>
+              <p class="dish-desc">Flaky sea salt, cold-pressed olive oil, vanilla bean cream.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE MENU
+         ========================================================================== -->
+    <section id="menu">
+      <div class="container">
+        <div style="text-align:center; max-width:650px; margin:0 auto 30px auto;">
+          <div class="label-gold" style="margin-bottom:12px;">SEASONAL SELECTION</div>
+          <h2>Full Dining Menu</h2>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="menu-tabs">
+          <button class="menu-tab-btn" data-category="starters">Starters</button>
+          <button class="menu-tab-btn active" data-category="mains">Mains</button>
+          <button class="menu-tab-btn" data-category="desserts">Desserts</button>
+          <button class="menu-tab-btn" data-category="drinks">Cocktails & Wine</button>
+        </div>
+
+        <!-- Rendered Menu Container -->
+        <div class="menu-items-grid" id="menu-items-container" style="transition:all 0.3s ease;">
+          <!-- Dynamically populated via menu.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         THE EXPERIENCE
+         ========================================================================== -->
+    <section id="experience" style="background:var(--bg-secondary);">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:70px;">
+          <div class="label-gold" style="margin-bottom:12px;">ATMOSPHERE & CRAFT</div>
+          <h2>The Experience</h2>
+        </div>
+
+        <!-- Row 1: The Kitchen -->
+        <div class="exp-row">
+          <div>
+            <div class="label-gold" style="margin-bottom:12px;">01 // THE KITCHEN</div>
+            <h3>Open-fire cooking, seasonal produce, and ingredients treated with respect.</h3>
+            <p style="margin-top:16px;">Our open hearth kitchen is the heart of Ember & Olive. Watching raw ingredients transform over wood embers creates a sensory connection between chef and guest.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1000&auto=format&fit=crop" alt="Open Fire Kitchen" class="exp-img" loading="lazy">
+        </div>
+
+        <!-- Row 2: The Cellar -->
+        <div class="exp-row reverse">
+          <div>
+            <div class="label-gold" style="margin-bottom:12px;">02 // THE CELLAR</div>
+            <h3>A thoughtful collection of wines, cocktails, and spirits selected to complement the menu.</h3>
+            <p style="margin-top:16px;">From small-batch Old World vintages to smoked botanical cocktails, our beverage program is designed to elevate every dish on the menu.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1000&auto=format&fit=crop" alt="Wine Cellar & Bar" class="exp-img" loading="lazy">
+        </div>
+
+        <!-- Row 3: The Room -->
+        <div class="exp-row">
+          <div>
+            <div class="label-gold" style="margin-bottom:12px;">03 // THE ROOM</div>
+            <h3>Warm light, natural textures, and an atmosphere designed for staying a little longer.</h3>
+            <p style="margin-top:16px;">Intimate booth seating, acoustic warmth, and ambient candle illumination set the stage for long conversations and special celebrations.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000&auto=format&fit=crop" alt="Dining Room Atmosphere" class="exp-img" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         GALLERY & LIGHTBOX
+         ========================================================================== -->
+    <section id="gallery">
+      <div class="container">
+        <div style="text-align:center; max-width:650px; margin:0 auto 30px auto;">
+          <div class="label-gold" style="margin-bottom:12px;">VISUAL JOURNEY</div>
+          <h2>Gallery</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item tall">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Charred Steak Platter" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop" alt="Dining Room Interior" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-item wide">
+            <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=800&auto=format&fit=crop" alt="Cocktails at the Bar" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop" alt="Chef Preparing Dish" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb231fc?q=80&w=800&auto=format&fit=crop" alt="Burrata Starter" class="gallery-img" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox-modal">
+      <button class="lightbox-btn lightbox-close" id="lightbox-close" aria-label="Close gallery">✕</button>
+      <button class="lightbox-btn lightbox-prev" id="lightbox-prev" aria-label="Previous image">‹</button>
+      <img src="" alt="Gallery Image" class="lightbox-img" id="lightbox-img">
+      <button class="lightbox-btn lightbox-next" id="lightbox-next" aria-label="Next image">›</button>
+    </div>
+
+    <!-- ==========================================================================
+         MEET THE CHEF
+         ========================================================================== -->
+    <section style="background:var(--bg-secondary);">
+      <div class="container">
+        <div class="story-grid">
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=1000&auto=format&fit=crop" alt="Executive Chef Arjun Mehra" style="width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:var(--radius-sm); border:1px solid var(--border-light);" loading="lazy">
+
+          <div>
+            <div class="label-gold" style="margin-bottom:12px;">MEET THE CHEF</div>
+            <h2>Arjun Mehra</h2>
+            <p style="font-size:1.2rem; color:var(--color-accent); font-family:var(--font-display); font-style:italic; margin-top:8px;">Executive Culinary Director</p>
+            <p style="margin-top:20px; font-size:1.05rem; line-height:1.8;">
+              "Chef Arjun Mehra approaches contemporary cooking with a simple philosophy: respect the ingredient, master the fire, and let the season lead."
+            </p>
+            <p style="margin-top:16px; font-size:0.95rem; color:var(--text-muted);">
+              Having honed his culinary techniques across Michelin-starred kitchens in Europe and Asia, Arjun returned to Kolkata to build Ember & Olive — celebrating elemental fire cooking with local Indian produce.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         RESERVATIONS SECTION
+         ========================================================================== -->
+    <section id="reservations">
+      <div class="container">
+        <div style="text-align:center; max-width:650px; margin:0 auto;">
+          <div class="label-gold" style="margin-bottom:12px;">BOOK YOUR EXPERIENCE</div>
+          <h2>Your Table Is Waiting.</h2>
+          <p style="margin-top:12px;">We recommend booking 2 to 3 days in advance for weekend dining.</p>
+        </div>
+
+        <div class="reservation-box">
+          <form id="reservation-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="res-name">Full Name</label>
+                <input type="text" id="res-name" class="form-input" required placeholder="Ananya Sharma">
+              </div>
+              <div class="form-group">
+                <label for="res-email">Email Address</label>
+                <input type="email" id="res-email" class="form-input" required placeholder="ananya@example.com">
+              </div>
+              <div class="form-group">
+                <label for="res-phone">Phone Number</label>
+                <input type="tel" id="res-phone" class="form-input" required placeholder="+91 98765 43210">
+              </div>
+              <div class="form-group">
+                <label for="res-guests">Number of Guests</label>
+                <select id="res-guests" class="form-input" required>
+                  <option value="2">2 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="6">6 Guests</option>
+                  <option value="8">8+ Guests (Private Dining)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="res-date">Date</label>
+                <input type="date" id="res-date" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label for="res-time">Preferred Time</label>
+                <select id="res-time" class="form-input" required>
+                  <option value="6:00 PM">6:00 PM</option>
+                  <option value="7:30 PM">7:30 PM</option>
+                  <option value="9:00 PM">9:00 PM</option>
+                  <option value="10:00 PM">10:00 PM</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-gold" style="width:100%; margin-top:30px;">Request a Reservation →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation Confirmation Modal -->
+    <div class="lightbox" id="reservation-modal">
+      <div id="res-modal-overlay" style="position:absolute; inset:0;"></div>
+      <div style="width:90%; max-width:540px; background:var(--bg-secondary); border:1px solid var(--border-strong); padding:40px; border-radius:var(--radius-sm); position:relative; z-index:2; text-align:center;">
+        <button id="res-modal-close" style="position:absolute; top:20px; right:20px; background:transparent; border:none; color:var(--text-primary); font-size:1.4rem; cursor:pointer;" aria-label="Close modal">✕</button>
+        <div class="label-gold" style="margin-bottom:12px;">RESERVATION REQUEST RECEIVED</div>
+        <h3 style="font-size:2.2rem; margin-bottom:16px;">We Look Forward To Welcoming You</h3>
+        <div id="res-confirmed-details" style="background:var(--bg-primary); padding:20px; border-radius:var(--radius-sm); border:1px solid var(--border-light); margin-bottom:24px; text-align:left;">
+          <!-- Dynamically populated -->
+        </div>
+        <button class="btn btn-gold" onclick="document.getElementById('reservation-modal').classList.remove('active'); document.body.style.overflow = '';" style="width:100%;">Done</button>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         OPENING HOURS & LOCATION
+         ========================================================================== -->
+    <section id="location" style="background:var(--bg-secondary);">
+      <div class="container">
+        <div class="story-grid">
+          <div>
+            <div class="label-gold" style="margin-bottom:12px;">HOURS & SCHEDULE</div>
+            <h2>Opening Hours</h2>
+            <div style="margin-top:24px; display:flex; flex-direction:column; gap:16px;">
+              <div style="display:flex; justify-content:space-between; border-bottom:1px dashed var(--border-light); padding-bottom:8px;">
+                <span>Tuesday — Thursday</span>
+                <span style="color:var(--color-accent); font-family:var(--font-mono);">6:00 PM — 10:30 PM</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; border-bottom:1px dashed var(--border-light); padding-bottom:8px;">
+                <span>Friday — Saturday</span>
+                <span style="color:var(--color-accent); font-family:var(--font-mono);">6:00 PM — 11:30 PM</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; border-bottom:1px dashed var(--border-light); padding-bottom:8px;">
+                <span>Sunday</span>
+                <span style="color:var(--color-accent); font-family:var(--font-mono);">6:00 PM — 10:00 PM</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; padding-bottom:8px; color:var(--text-muted);">
+                <span>Monday</span>
+                <span>Closed</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="label-gold" style="margin-bottom:12px;">FIND US</div>
+            <h2>Location & Contact</h2>
+            <p style="margin-top:16px; font-size:1.1rem; color:var(--text-primary);">
+              18 Riverside Avenue, Kolkata, West Bengal 700001, India
+            </p>
+            <p style="margin-top:8px; color:var(--text-secondary);">
+              <strong>Phone:</strong> +91 90000 00000<br>
+              <strong>Email:</strong> hello@emberandolive.demo
+            </p>
+
+            <!-- Custom Stylized Dark Map Visual -->
+            <div style="width:100%; height:180px; background:var(--bg-primary); border:1px solid var(--border-strong); border-radius:var(--radius-sm); margin-top:24px; display:flex; align-items:center; justify-content:center; text-align:center; padding:20px;">
+              <div>
+                <span class="label-gold">MAP LOCATION</span>
+                <p style="font-size:0.9rem; color:var(--text-muted); margin-top:4px;">18 Riverside Avenue, Kolkata</p>
+                <a href="#reservations" class="btn btn-outline-gold" style="padding:8px 18px; font-size:0.75rem; margin-top:12px;">Get Directions →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS
+         ========================================================================== -->
+    <section>
+      <div class="container">
+        <div style="text-align:center; max-width:650px; margin:0 auto 50px auto;">
+          <div class="label-gold" style="margin-bottom:12px;">GUEST EXPERIENCES</div>
+          <h2>Words From Our Guests</h2>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:30px;">
+          <div style="background:var(--bg-secondary); border:1px solid var(--border-light); padding:36px; border-radius:var(--radius-sm);">
+            <p style="font-style:italic; color:var(--text-primary); margin-bottom:24px;">"Every course felt considered. The atmosphere, the food, the service—it all worked together seamlessly."</p>
+            <p style="font-family:var(--font-display); font-size:1.1rem; color:var(--color-accent);">— Rhea Sen</p>
+          </div>
+          <div style="background:var(--bg-secondary); border:1px solid var(--border-light); padding:36px; border-radius:var(--radius-sm);">
+            <p style="font-style:italic; color:var(--text-primary); margin-bottom:24px;">"The charred sea bass and smoked old fashioned cocktail are worth traveling across the city for."</p>
+            <p style="font-family:var(--font-display); font-size:1.1rem; color:var(--color-accent);">— Kabir Mehta</p>
+          </div>
+          <div style="background:var(--bg-secondary); border:1px solid var(--border-light); padding:36px; border-radius:var(--radius-sm);">
+            <p style="font-style:italic; color:var(--text-primary); margin-bottom:24px;">"The most intimate dining room in Kolkata. Perfect for anniversaries and long conversations."</p>
+            <p style="font-family:var(--font-display); font-size:1.1rem; color:var(--color-accent);">— Ananya Roy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FINAL DRAMATIC CTA
+         ========================================================================== -->
+    <section style="background:linear-gradient(to top, rgba(17,16,14,0.95), rgba(17,16,14,0.75)), url('https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat; text-align:center; padding:150px 0;">
+      <div class="container">
+        <div class="label-gold" style="margin-bottom:16px;">JOIN US FOR DINNER</div>
+        <h2 style="font-size:clamp(2.8rem, 6.5vw, 5.5rem);">
+          MAKE AN EVENING<br>
+          <span class="serif-italic" style="color:var(--color-accent); text-transform:none;">of it.</span>
+        </h2>
+        <p style="font-size:1.2rem; color:var(--text-secondary); margin:20px auto 40px auto; max-width:500px;">
+          Good food deserves good company.
+        </p>
+        <a href="#reservations" class="btn btn-gold btn-lg">Reserve Your Table →</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#" class="brand-mark" style="font-size:1.8rem;">
+            EMBER <span>&</span> OLIVE
+          </a>
+          <p style="margin-top:16px; font-size:0.9rem; max-width:320px;">
+            A contemporary restaurant centered around open-fire cooking, seasonal ingredients, and unforgettable dining experiences in Kolkata.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#dishes">Signatures</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reservations">Reservations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact & Hours</h5>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@emberandolive.demo">hello@emberandolive.demo</a></li>
+            <li><a href="#">+91 90000 00000</a></li>
+            <li><a href="#">Tue – Sun: 6PM – 11PM</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Social</h5>
+          <ul class="footer-links">
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 EMBER & OLIVE — Fictional portfolio demonstration project.</p>
+        <p style="font-family:var(--font-mono); color:var(--color-accent); font-size:0.8rem;">DESIGNED & BUILT FOR HOSPITALITY EXCELLENCE</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Modules -->
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/reservation.js"></script>
+  <script src="js/animations.js"></script>
+
+</body>
+</html>
