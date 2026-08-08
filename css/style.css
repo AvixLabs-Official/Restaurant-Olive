@@ -219,9 +219,9 @@ section {
 }
 
 .nav-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   height: 100%;
 }
 
@@ -244,8 +244,10 @@ section {
 .nav-links {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 36px;
   list-style: none;
+  margin: 0 auto;
 }
 
 .nav-link {
