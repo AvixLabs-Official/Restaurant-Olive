@@ -1,50 +1,50 @@
-# EMBER & OLIVE — Wood-Fired Mediterranean Kitchen
+# Ember & Olive
 
-![Ember & Olive](https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop)
+Premium restaurant website concept with menu discovery, reservations, and hospitality-focused design.
 
-**EMBER & OLIVE** is a premium culinary website designed for high-end dining establishments. It features interactive food & cocktail menu tabs, an online table reservation system, and private event inquiry workflows.
+## Live Demo
 
----
-
-## 🚀 Live Demo
-
-- **Public Live Application**: [https://subtle-sundae-9087ff.netlify.app/](https://subtle-sundae-9087ff.netlify.app/)
+- **[View Live Demo](https://subtle-sundae-9087ff.netlify.app/)**
 - **GitHub Repository**: [https://github.com/AvixLabs-Official/Restaurant-Olive](https://github.com/AvixLabs-Official/Restaurant-Olive)
 
----
+## Overview
 
-## ✨ Key Features
+Ember & Olive is a high-end dining website created for boutique restaurants, bistro kitchens, and luxury hospitality venues.
 
-- **Interactive Menu Explorer**: Category filters for Small Plates, Wood-Fired Mains, Chef's Tasting Menu, and Artisanal Cocktails.
-- **Online Table Reservation System**: Dynamic date picker, guest party selector, and seating area preference manager.
-- **Private Dining Inquiry Form**: Dedicated lead capture form for private events and corporate dinners.
-- **Rich Culinary Aesthetics**: Warm charcoal and gold design tokens with high-resolution food photography.
+It includes an interactive food & beverage menu explorer, online table reservation widget, and private event inquiry form.
 
----
+> **Disclaimer**: This is a portfolio demonstration project and not a client project.
 
-## 🛠️ Tech Stack
+## Features
 
-- **Frontend**: HTML5, Vanilla CSS3, JavaScript (ES6+)
-- **Data Persistence**: LocalStorage booking state
-- **Server**: Node.js HTTP Server
+- Interactive menu explorer with category tabs (Mains, Cocktails, Desserts)
+- Table reservation system with date/guest party picker
+- Private event inquiry form
+- Warm moody culinary aesthetics
+- Fully responsive layout
 
----
+## Technologies
 
-## 💻 Local Installation & Setup
+- HTML5
+- CSS3 (Warm Culinary Tokens)
+- JavaScript (ES6+)
+- Static Web Host (Netlify / Node)
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/AvixLabs-Official/Restaurant-Olive.git
-   cd Restaurant-Olive
-   ```
+## Screenshots
 
-2. **Run Local Server**:
-   ```bash
-   python -m http.server 8082
-   ```
+![Ember & Olive Interface](images/ember_olive_preview.jpg)
 
----
+## Responsive Design
 
-## 📄 License
+Engineered and tested across viewports:
+- Desktop (1440px +)
+- Tablet (768px – 1024px)
+- Mobile (360px – 480px)
 
-Developed by **[Avix / AvixLabs](https://github.com/AvixLabs-Official)**. Released under the MIT License.
+## Project Type
+
+Portfolio Demonstration · Restaurant / Hospitality
+
+## Disclaimer
+
+This project is a portfolio demonstration created to showcase frontend development, UI/UX, and interactive web-development capabilities. It is not presented as client work.
